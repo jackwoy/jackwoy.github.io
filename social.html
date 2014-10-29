@@ -20,20 +20,21 @@
 	<meta property="og:video:width" content="435" />
 	<link type="text/css" rel="stylesheet" href="basic.css">
 	<title>Ooyala Embed Social Test Page</title>
+	<script src='//player.ooyala.com/v3/5d36c9ca392d4f37a98cccc499d56681'></script>
 </head>
 <body>
 	<h1>Social Test Page</h1>
 	<div>
-	<script src='//player.ooyala.com/v3/5d36c9ca392d4f37a98cccc499d56681'></script><div id='ooyalaplayer' style='width:480px;height:270px'></div><script>
+	<div id='ooyalaplayer' style='width:480px;height:270px'></div><script>
 	OO.ready(function () {
-            var ooplayer = OO.Player.create('ooyalaplayer', 'k0amZ3cDqmZTyTM4iUSo-jfMM2lP405M', {onCreate: function(ooplayer) {window.messageBus = ooplayer.mb;}}); }); 
+            var ooplayer = OO.Player.create('ooyalaplayer', 'k0amZ3cDqmZTyTM4iUSo-jfMM2lP405M', {onCreate: function(ooplayer) {window.messageBus = ooplayer.mb;}}); 
 
 window.messageBus.subscribe('*', 'example',
               function (eventName) {
                   console.log("Event:: " + eventName);
               }
             );
-
+ });
 </script><noscript><div>Please enable Javascript to watch this video</div></noscript>
 </div>
 </body>
