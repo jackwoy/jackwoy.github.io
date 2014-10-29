@@ -30,8 +30,8 @@
             var ooplayer = OO.Player.create('ooyalaplayer', 'k0amZ3cDqmZTyTM4iUSo-jfMM2lP405M', {onCreate: function(ooplayer) {window.messageBus = ooplayer.mb;}}); 
 
 window.messageBus.subscribe('*', 'example',
-              function (eventName) {
-                  console.log("Event:: " + eventName);
+              function (eventName, arg1, arg2, arg3, arg4) {
+                  console.log("Event:: " + eventName + " " + arg1 + " " + arg2 + " " + arg3 + " " arg4);
               }
             );
  });
