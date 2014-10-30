@@ -8,28 +8,29 @@
 <body>
 	<h1>Autoplay Test Page</h1>
 	<div>
-	<div id='ooyalaplayer' style='width:480px;height:270px'></div><script>
-	OO.ready(function () {
-            var ooplayer = OO.Player.create('ooyalaplayer', 'k0amZ3cDqmZTyTM4iUSo-jfMM2lP405M', {autoplay: true, onCreate: function(ooplayer) {window.messageBus = ooplayer.mb;}}); 
+		<div id='ooyalaplayer' style='width:480px;height:270px'></div>
+		<script>
+		OO.ready(function () {
+			var ooplayer = OO.Player.create('ooyalaplayer', 'k0amZ3cDqmZTyTM4iUSo-jfMM2lP405M', {autoplay: true, onCreate: function(ooplayer) {window.messageBus = ooplayer.mb;}}); 
 
 			window.messageBus.subscribe('*', 'example',
-              function (eventName, arg1, arg2, arg3, arg4) {
-                  console.log("Event:: " + eventName + " " + arg1 + " " + arg2 + " " + arg3 + " " + arg4);
-              }
-            );
+				function (eventName, arg1, arg2, arg3, arg4) {
+					console.log("Event:: " + eventName + " " + arg1 + " " + arg2 + " " + arg3 + " " + arg4);
+				});
 
-            window.messageBus.subscribe(OO.EVENTS.PLAYING, 'example', function () {
-            	setTimeout(function() {
-            		pauseVideo();
-            	}, 5000);
-            });
- });
+			window.messageBus.subscribe(OO.EVENTS.PLAYING, 'example', function () {
+				setTimeout(function() {
+					pauseVideo();
+				}, 5000);
+			});
+		});
 
-	function pauseVideo(){
-		alert('Video pausing!');
-		window.messageBus.publish(OO.EVENTS.PAUSE);
-	}
-</script><noscript><div>Please enable Javascript to watch this video</div></noscript>
-</div>
+		function pauseVideo(){
+			window.messageBus.publish(OO.EVENTS.PAUSE);
+			alert('Paused video!');
+		}
+		</script>
+		<noscript><div>Please enable Javascript to watch this video</div></noscript>
+	</div>
 </body>
 </html>
