@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /
 Allow: /social.html
+Allow: /twittercard-docurl-test.html
