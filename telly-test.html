@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="basic.css">
+	<title>Telly Test Page</title>
+	<script src='//player.ooyala.com/v3/5d36c9ca392d4f37a98cccc499d56681'></script>
+</head>
+<body>
+	<h1>Telly Test Page</h1>
+	<div>
+	<div id='ooyalaplayer' style='width:480px;height:270px'></div><script>
+	OO.ready(function () {
+            var ooplayer = OO.Player.create('ooyalaplayer', '10Y3llcTo8XDOu1NT4bubXuu7qDsYoPA', {onCreate: function(ooplayer) {window.messageBus = ooplayer.mb;}}); 
+
+window.messageBus.subscribe('*', 'example',
+              function (eventName, arg1, arg2, arg3, arg4) {
+                  console.log("Event:: " + eventName + " " + arg1 + " " + arg2 + " " + arg3 + " " + arg4);
+              }
+            );
+ });
+</script><noscript><div>Please enable Javascript to watch this video</div></noscript>
+</div>
+</body>
+</html>
