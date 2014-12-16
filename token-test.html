@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="basic.css">
+	<title>Token Test Page</title>
+	<script src='//player.ooyala.com/v3/fd285c8a4e2f408382158120da6a20cd'></script>
+</head>
+<body>
+	<h1>Token Test Page</h1>
+	<div>
+	<div id='ooyalaplayer' style='width:480px;height:270px'></div><script>
+	OO.ready(function () {
+            var ooplayer = OO.Player.create('ooyalaplayer', 'thOHg1cjqAFUknqN12PepXVUA0BZGsPA', {
+            	embedToken: 'http://player.ooyala.com/sas/embed_token/c3aTgyOjNakLZWP-D1m_hmOTzsXC/thOHg1cjqAFUknqN12PepXVUA0BZGsPA?api_key=c3aTgyOjNakLZWP-D1m_hmOTzsXC.seNZL&expires=1418738400&signature=LieadETsZoS4KMyJZOi4U2QoVdl71lwL0RIbHGb4Fl4',
+            	onCreate: function(ooplayer) {window.messageBus = ooplayer.mb;}}); 
+
+window.messageBus.subscribe('*', 'example',
+              function (eventName, arg1, arg2, arg3, arg4) {
+                  console.log("Event:: " + eventName + " " + arg1 + " " + arg2 + " " + arg3 + " " + arg4);
+              }
+            );
+ });
+</script><noscript><div>Please enable Javascript to watch this video</div></noscript>
+</div>
+</body>
+</html>
