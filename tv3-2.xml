@@ -1,0 +1,92 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0"> 
+	<Ad id="297558696"> 
+		<InLine> 
+			<AdSystem>DCM</AdSystem> 
+			<AdTitle>In-Stream Video</AdTitle> 
+			<Error>
+				<![CDATA[https://pagead2.googlesyndication.com/pagead/gen_204?id=xfa_video_error&amp;aid=297558696&amp;cid=66490033&amp;advid=4124599]]>
+			</Error> 
+			<Impression>
+				<![CDATA[https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjsvPIkeUkQUPlfLCVB7neHG24F2yiRIVZB5pGukAKwX_mIKZ3OllmH80SdbUHYBYkm5RygWEZwLfMM8OvR6238nPOTXa&amp;sig=Cg0ArKJSzO5FRPE9Zk-tEAE&amp;urlfix=1&amp;adurl=]]>
+			</Impression> 
+			<Impression>
+				<![CDATA[https://pixel.quantserve.com/pixel/p-fHVpZEKp_J8c3.gif?media=ad&amp;labels=_imp.adserver.doubleclick,_imp.campaign.9172871,_imp.publisher.1581609,_imp.placement.124650591,_imp.adid.297558696,_imp.creative.66490033]]>
+			</Impression> 
+			<Creatives> 
+				<Creative id="66490033" sequence="1"> 
+					<Linear> 
+						<Duration>00:00:20</Duration> 
+						<TrackingEvents> 
+							<Tracking event="start">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIw8CKwrT0yAIVx3jbCh2d3wxwEAAYACCxndof;met=1;ecn1=1;etm1=0;eid1=11;]]>
+							</Tracking> 
+							<Tracking event="firstQuartile">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIw8CKwrT0yAIVx3jbCh2d3wxwEAAYACCxndof;met=1;ecn1=1;etm1=0;eid1=960584;]]>
+							</Tracking> 
+							<Tracking event="midpoint">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIw8CKwrT0yAIVx3jbCh2d3wxwEAAYACCxndof;met=1;ecn1=1;etm1=0;eid1=18;]]>
+							</Tracking> 
+							<Tracking event="thirdQuartile">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIw8CKwrT0yAIVx3jbCh2d3wxwEAAYACCxndof;met=1;ecn1=1;etm1=0;eid1=960585;]]>
+							</Tracking> 
+							<Tracking event="complete">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIw8CKwrT0yAIVx3jbCh2d3wxwEAAYACCxndof;met=1;ecn1=1;etm1=0;eid1=13;]]>
+							</Tracking> 
+							<Tracking event="mute">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIw8CKwrT0yAIVx3jbCh2d3wxwEAAYACCxndof;met=1;ecn1=1;etm1=0;eid1=16;]]>
+							</Tracking> 
+							<Tracking event="unmute">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIw8CKwrT0yAIVx3jbCh2d3wxwEAAYACCxndof;met=1;ecn1=1;etm1=0;eid1=149645;]]>
+							</Tracking> 
+							<Tracking event="pause">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIw8CKwrT0yAIVx3jbCh2d3wxwEAAYACCxndof;met=1;ecn1=1;etm1=0;eid1=15;]]>
+							</Tracking> 
+							<Tracking event="fullscreen">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIw8CKwrT0yAIVx3jbCh2d3wxwEAAYACCxndof;met=1;ecn1=1;etm1=0;eid1=19;]]>
+							</Tracking> 
+						</TrackingEvents> 
+						<VideoClicks> 
+							<ClickThrough>
+								<![CDATA[https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvPIkeUkQUPlfLCVB7neHG24F2yiRIVZB5pGukAKwX_mIKZ3OllmH80SdbUHYBYkm5RygWEZwLfMM8OvR6238nPOTXa&amp;sig=Cg0ArKJSzJ4RF9i6mVClEAE&amp;urlfix=1&amp;adurl=https://www.lottery.ie/en/Play-Online/EuroMillions]]>
+							</ClickThrough> 
+						</VideoClicks> 
+						<MediaFiles> 
+							<MediaFile delivery="progressive" width="426" height="240" type="video/x-flv" bitrate="260" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/58c39504bb56257c/itag/5/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590916253/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/7947E69EAD7BD173F8A5249FCF27227A07B5D550.15D2F31565708D86853B996E009BAC7D6E98D8B5/key/ck2/file/file.flv]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="640" height="360" type="video/x-flv" bitrate="701" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/58c39504bb56257c/itag/6/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590916264/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/770949ECF8081178878BCF4EBF74981D9E05027E.EFE64A6DE9330463CCF8DCA68E95EF87C255DB6/key/ck2/file/file.flv]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="640" height="360" type="video/x-flv" bitrate="475" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/58c39504bb56257c/itag/34/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590916259/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/14139D56B5450468C1150CAF6982030711B4B67D.46DC81847D1F80B8AC769D6DC5EA9CD6CF1CA881/key/ck2/file/file.flv]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="176" height="144" type="video/3gpp" bitrate="53" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/58c39504bb56257c/itag/17/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590916252/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/7BC68DE95CA9BD54F10D24DA134D99290A7BDA21.778892A3B4485F73B92AF75EDB5DFE3E3F4B5326/key/ck2/file/file.3gpp]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="320" height="180" type="video/3gpp" bitrate="186" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/58c39504bb56257c/itag/36/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590916252/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/A7F6CECCF10A71492D36CAD120C98EF4AF95FF3B.716C2E63B7C952F999C0B8E4B518070545AC4EAA/key/ck2/file/file.3gpp]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="640" height="360" type="video/mp4" bitrate="464" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/58c39504bb56257c/itag/18/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590916258/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/8C36F7DFB5BA47E6E5F8FBAD2BB7ED623DA5C5D5.AEB0097A19FFF383061E177773C61922727FDC60/key/ck2/file/file.mp4]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="640" height="360" type="video/webm" bitrate="526" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/58c39504bb56257c/itag/43/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590916268/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/9672EF85F56749452CD4E789648AB12EA7AF959D.62D58669C7361F67175BA71B2FB621F88FFEA44C/key/ck2/file/file.webm]]>
+							</MediaFile> 
+						</MediaFiles> 
+					</Linear> 
+				</Creative> 
+			</Creatives> 
+			<Extensions> 
+				<Extension type="dart">
+					<AdServingData> 
+						<DeliveryData> 
+							<GeoData>
+								<![CDATA[ct=IE&amp;st=&amp;city=7544&amp;dma=0&amp;zp=&amp;bw=4]]>
+							</GeoData> 
+						</DeliveryData> 
+					</AdServingData> 
+				</Extension> 
+			</Extensions> 
+		</InLine> 
+	</Ad> 
+</VAST>
