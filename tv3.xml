@@ -1,0 +1,107 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0"> 
+	<Ad id="297513651"> 
+		<InLine> 
+			<AdSystem>DCM</AdSystem> 
+			<AdTitle>In-Stream Video</AdTitle> 
+			<Error>
+				<![CDATA[https://pagead2.googlesyndication.com/pagead/gen_204?id=xfa_video_error&amp;aid=297513651&amp;cid=66463249&amp;advid=5109790]]>
+			</Error> 
+			<Impression>
+				<![CDATA[https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjstM9gjAotewuD8wCfxACE1EqWHHIg6T2bHWWFaqNs-Akw4oZ0eF1czFMXPk_nVAX-4FcV2iC67guPFQqbdpIsyj0Q&amp;sig=Cg0ArKJSzPOc8oruhJ6zEAE&amp;urlfix=1&amp;adurl=]]>
+			</Impression> 
+			<Creatives> 
+				<Creative id="66463249" sequence="1"> 
+					<Linear> 
+						<Duration>00:00:20</Duration> 
+						<TrackingEvents> 
+							<Tracking event="start">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIpuqQwrT0yAIVA07bCh1QMQaQEAAYACCRzNgf;met=1;ecn1=1;etm1=0;eid1=11;]]>
+							</Tracking> 
+							<Tracking event="firstQuartile">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIpuqQwrT0yAIVA07bCh1QMQaQEAAYACCRzNgf;met=1;ecn1=1;etm1=0;eid1=960584;]]>
+							</Tracking> 
+							<Tracking event="midpoint">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIpuqQwrT0yAIVA07bCh1QMQaQEAAYACCRzNgf;met=1;ecn1=1;etm1=0;eid1=18;]]>
+							</Tracking> 
+							<Tracking event="thirdQuartile">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIpuqQwrT0yAIVA07bCh1QMQaQEAAYACCRzNgf;met=1;ecn1=1;etm1=0;eid1=960585;]]>
+							</Tracking> 
+							<Tracking event="complete">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIpuqQwrT0yAIVA07bCh1QMQaQEAAYACCRzNgf;met=1;ecn1=1;etm1=0;eid1=13;]]>
+							</Tracking> 
+							<Tracking event="mute">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIpuqQwrT0yAIVA07bCh1QMQaQEAAYACCRzNgf;met=1;ecn1=1;etm1=0;eid1=16;]]>
+							</Tracking> 
+							<Tracking event="unmute">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIpuqQwrT0yAIVA07bCh1QMQaQEAAYACCRzNgf;met=1;ecn1=1;etm1=0;eid1=149645;]]>
+							</Tracking> 
+							<Tracking event="pause">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIpuqQwrT0yAIVA07bCh1QMQaQEAAYACCRzNgf;met=1;ecn1=1;etm1=0;eid1=15;]]>
+							</Tracking> 
+							<Tracking event="fullscreen">
+								<![CDATA[https://ad.doubleclick.net/ddm/activity/dc_oe=ChMIpuqQwrT0yAIVA07bCh1QMQaQEAAYACCRzNgf;met=1;ecn1=1;etm1=0;eid1=19;]]>
+							</Tracking> 
+						</TrackingEvents> 
+						<VideoClicks> 
+							<ClickThrough>
+								<![CDATA[https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstM9gjAotewuD8wCfxACE1EqWHHIg6T2bHWWFaqNs-Akw4oZ0eF1czFMXPk_nVAX-4FcV2iC67guPFQqbdpIsyj0Q&amp;sig=Cg0ArKJSzMiavXOmxXByEAE&amp;urlfix=1&amp;adurl=http://www.cashandcarrykitchens.ie/currentoffers.html]]>
+							</ClickThrough> 
+						</VideoClicks> 
+						<MediaFiles> 
+							<MediaFile delivery="progressive" width="426" height="240" type="video/x-flv" bitrate="283" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/5/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676552/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/3D5D66DA7707EB1EEE1F376B7481AA6C51B44FDB.714989D9267D1CB217F22A980C7282C0D571A425/key/ck2/file/file.flv]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="640" height="360" type="video/x-flv" bitrate="686" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/6/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676558/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/137E1ACCF782A83ACA0D73D34483CF4B57BAAF83.41E9E26C08782A17ADA04F1E2C94A00034B41718/key/ck2/file/file.flv]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="640" height="360" type="video/x-flv" bitrate="311" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/34/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676570/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/59CA0138AF25F6936D709B0307774E2383970A9F.8C1BB6AC6A1201C4A1E54C9285AE4D67DA24D15F/key/ck2/file/file.flv]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="854" height="480" type="video/x-flv" bitrate="443" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/35/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676556/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/94A4F6C01EE3E8E1B8CDB3C3B3E643F4E134CE3F.B77386F5690757252A5913743C424F1E9498CA82/key/ck2/file/file.flv]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="176" height="144" type="video/3gpp" bitrate="58" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/17/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676553/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/B924BB1290DB3F89526D668DDB01846A550C757D.62A2A9E284003CEDC1225AB1D916AACF6FACA41D/key/ck2/file/file.3gpp]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="320" height="180" type="video/3gpp" bitrate="189" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/36/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676555/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/2079C5AC012087F9435F2AFA9081932CC33EE49.B35110D9C9A5091357928C32DA99BB19C8D3CDBC/key/ck2/file/file.3gpp]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="640" height="360" type="video/mp4" bitrate="313" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/18/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676557/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/B98ED5C196BEB8D722DD8739647C7606E2320E3D.A379792ECAFA91802AB632F569ECF34808806B9C/key/ck2/file/file.mp4]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="1183" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/22/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676574/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/954E84B8258D107DF96E8723089CE756006B4F8A.83C5B50F21600190D6AFCA461E0E1C140BFF218D/key/ck2/file/file.mp4]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="854" height="480" type="video/mp4" bitrate="463" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/59/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676574/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/2889230DD83AAF27761694C226B8B1E9790760F5.6BB88B73304306FA007A7DEE06510563058C79AE/key/ck2/file/file.mp4]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="640" height="360" type="video/webm" bitrate="392" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/43/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676570/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/1D9448586D122798465A6F6F8943D8F4630EAE78.B6ED6D196CFF1CBB99DBEC18B92A54711EA578D4/key/ck2/file/file.webm]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="854" height="480" type="video/webm" bitrate="577" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/44/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676593/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/1DC42C7EAAF351AA7E31049AAA33643664C6880E.5E000B7B3E59833BC5CF1BD6BDFA11F4F561CF97/key/ck2/file/file.webm]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="1280" height="720" type="video/webm" bitrate="1506" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/videoplayback/id/8c303ae17ff5476e/itag/45/source/doubleclick_dmm/ratebypass/yes/ip/0.0.0.0/ipbits/0/expire/3590676596/sparams/id,itag,source,ratebypass,ip,ipbits,expire/signature/A8664FC9E873612B360332692A4EAD4B39A1E21F.67CC40243656E1DDF1044E079A9A5A83129B888B/key/ck2/file/file.webm]]>
+							</MediaFile> 
+							<MediaFile delivery="progressive" width="256" height="144" type="application/x-mpegURL" bitrate="105" scalable="false" maintainAspectRatio="false">
+								<![CDATA[https://gcdn.2mdn.net/api/manifest/hls_variant/source/doubleclick_dmm/id/8c303ae17ff5476e/itag/0/playlist_type/LIVE/ip/0.0.0.0/ipbits/0/expire/3590676558/sparams/ip,ipbits,expire,source,id,itag,playlist_type/signature/90242531ACAA0BF6E32360F55C1063D28F285573.ACBD9385A5232CCD38621B536E54BFED23D8A581/key/ck2/file/index.m3u8]]>
+							</MediaFile> 
+						</MediaFiles> 
+					</Linear> 
+				</Creative> 
+			</Creatives> 
+			<Extensions> 
+				<Extension type="dart">
+					<AdServingData> 
+						<DeliveryData> 
+							<GeoData>
+								<![CDATA[ct=IE&amp;st=&amp;city=7544&amp;dma=0&amp;zp=&amp;bw=4]]>
+							</GeoData> 
+						</DeliveryData> 
+					</AdServingData> 
+				</Extension> 
+			</Extensions> 
+		</InLine> 
+	</Ad> 
+</VAST>
