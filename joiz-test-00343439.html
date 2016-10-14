@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <script src="http://player.ooyala.com/static/v4/stable/4.8.5/core.min.js"></script>
+<script src="http://player.ooyala.com/static/v4/stable/4.8.5/video-plugin/main_html5.min.js"></script>
+<script src="http://player.ooyala.com/static/v4/stable/4.8.5/skin-plugin/html5-skin.min.js"></script>
+<script src="http://player.ooyala.com/static/v4/stable/4.8.5/video-plugin/bit_wrapper.min.js"></script>
+<script src="http://player.ooyala.com/static/v4/stable/4.8.5/video-plugin/osmf_flash.min.js"></script>
+<link rel="stylesheet" href="http://player.ooyala.com/static/v4/stable/4.8.5/skin-plugin/html5-skin.min.css"/>
+    <script>Array.prototype.foo = function () {}</script>
+</head>
+<body>
+<div id='container' style='width:640px;height:360px;'></div>
+  <script>Array.prototype.bar = function () {}</script>
+  <script>
+    Array.prototype.foobar = function () {}
+    var playerParam = {
+      'pcode':'1mY2MyOuigwFiX0AJgT3Res66Hmk','playerBrandingId':'a313cdfd1d0c4a25b8dcc597417be5ff','autoplay':false,'loop':false,'skin': {'config': 'http://player.ooyala.com/static/v4/stable/4.8.5/skin-plugin/skin.json'},
+      "initialBitrate": { 
+"level": "1", 
+"duration": "10" 
+} 
+    };
+    OO.ready(function() {
+      window.pp = OO.Player.create('container', 'sxZjJoNTE6rbDtSkjyMZDchLLGWnAgUc', playerParam);
+    });
+    Array.prototype.foobarbaz = function () {}
+
+  </script>
+  <script>Array.prototype.xyzzy = function () {}</script>
+</body>
+</html>
