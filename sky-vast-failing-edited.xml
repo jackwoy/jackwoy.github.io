@@ -1,0 +1,18 @@
+<Playlist>
+  <Preroll>
+    <Ad>
+      <![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/6955029/apps/ios/skynews/videoplayer&sz=640x480&ciu_szs=&url=%5Breferrer_url%5D&unviewed_position_start=1&output=xml_vast2&impl=s&env=vp&gdfp_req=1&ad_rule=0&video_url_to_fetch=%5Bdescription_url%5D&vad_type=linear&vpos=preroll&pod=1&min_ad_duration=0&max_ad_duration=30000&ppos=1&lip=true&cmsid=9779&kfa=0&tfcd=0]]>
+    </Ad>
+    <Ad bumper="requires_ads">
+      <![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/6955029/apps/ios/skynews/videoplayer&sz=640x480&ciu_szs=&url=%5Breferrer_url%5D&unviewed_position_start=1&output=xml_vast2&impl=s&env=vp&gdfp_req=1&ad_rule=0&video_url_to_fetch=%5Bdescription_url%5D&vad_type=linear&vpos=preroll&pod=1&bumper=after&min_ad_duration=0&max_ad_duration=15000&cmsid=9779&kfa=0&tfcd=0]]>
+    </Ad>
+  </Preroll>
+  <Postroll>
+    <Ad bumper="requires_ads">
+      <![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/6955029/apps/ios/skynews/videoplayer&sz=640x480&ciu_szs=&url=%5Breferrer_url%5D&unviewed_position_start=1&output=xml_vast2&impl=s&env=vp&gdfp_req=1&ad_rule=0&video_url_to_fetch=%5Bdescription_url%5D&vad_type=linear&vpos=postroll&pod=2&bumper=before&min_ad_duration=0&max_ad_duration=15000&cmsid=9779&kfa=0&tfcd=0]]>
+    </Ad>
+    <Ad>
+      <![CDATA[https://pubads.g.doubleclick.net/gampad/ads?slotname=/6955029/apps/ios/skynews/videoplayer&sz=640x480&ciu_szs=&url=%5Breferrer_url%5D&unviewed_position_start=1&output=xml_vast2&impl=s&env=vp&gdfp_req=1&ad_rule=0&video_url_to_fetch=%5Bdescription_url%5D&vad_type=linear&vpos=postroll&pod=2&min_ad_duration=0&max_ad_duration=30000&ppos=1&lip=true&cmsid=9779&kfa=0&tfcd=0]]>
+    </Ad>
+  </Postroll>
+</Playlist>
