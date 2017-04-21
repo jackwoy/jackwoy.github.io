@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Test Player V4 Web Page</title>
+    <!-- V4 JS core is required. Plugins such as skin, discovery and Advertising need to be loaded separately -->
+    <!-- <script src="js/core.min.js"></script> -->
+    <!-- Change these html5-skin.min.css and html5-skin.js to your local build if necessary -->
+    <!-- <script src="js/html5-skin.min.js"></script> -->
+    <link rel="stylesheet" href="css/html5-skin.min.css" />
+    <link rel="stylesheet" href="css/manu.css" />
+    <!-- A Video Plugin is required. This example shows the Main Video Plugin -->
+    <script src="js/main_html5.min.js"></script>
+
+
+
+<script src="//player.ooyala.com/static/v4/stable/4.6.9/core.min.js"></script>
+  <script src="//player.ooyala.com/static/v4/stable/4.6.9/video-plugin/main_html5.min.js"></script>
+  <!-- <script src="//player.ooyala.com/static/v4/stable/4.6.9/video-plugin/osmf_flash.min.js"></script> -->
+  <script src="//player.ooyala.com/static/v4/stable/4.6.9/video-plugin/bit_wrapper.min.js"></script>
+  <!-- <script src="//player.ooyala.com/static/v4/stable/4.6.9/other-plugin/discovery_api.min.js"></script> -->
+  <script src="//player.ooyala.com/static/v4/stable/4.6.9/skin-plugin/html5-skin.min.js"></script>
+  <!-- OOyala libraries end -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- <div id="container" style="width:640px; height:360px;"></div> -->
+    <script>
+    var playerParam = {
+        "pcode": "kwY2YyOrdiiEe4TsOYOlWUDZ2T8i",
+        "playerBrandingId": "5e23cdb359d94306ac602d87fe008994",
+        "skin": {
+            // Config contains the configuration setting for player skin. Change to your local config when necessary.
+            "config": "js/skin.json",
+            "inline": {
+                "startScreen": {
+                    "showDescription": false,
+                    "playIconStyle": {
+                        "color": "red",
+                        "opacity": 0
+                    }
+                }
+            }
+        }
+    };
+    // OO.ready(function() {
+    //     window.pp = OO.Player.create("container", "M2ZGlnMzE6xukA138hptAWkq68p5Aeqa", playerParam);
+    // });
+    $(document).ready(function(){
+        window.pp = OO.Player.create("container", "M2ZGlnMzE6xukA138hptAWkq68p5Aeqa", playerParam);
+    $(".video_play, .mu-item__play").unbind().click(function () {       
+        var figure = $(this).parent();//.prev();
+        if ($(this).hasClass('mu-item__play')){
+          figure = $(this).parent().prev();
+        }
+
+        $(figure).find("img").css('display', 'none');
+        $(this).css('display', 'none');
+        
+        $(figure).find(".oo-player-container").show();
+       // $(_playVideo).click();
+        pp.play();
+
+      });
+});
+    </script>
+   
+    <article class="mu-item video" data-share-url style="width:640px; height:360px;">
+        <div class="img-holder">
+            <figure class="mu-item__gradient ">
+                <img src="/images/video-12.png" class="img-responsive" alt="img-mu-item" title="img-mu-item">
+                <div id="container" data-module="video" data-video-code="M2ZGlnMzE6xukA138hptAWkq68p5Aeqa" class="mu-item__player"></div>
+                <div class="mu-item__gradient"></div>
+            </figure>
+        </div>      
+        <div class="mu-item__info">
+            <div class="mu-item__play video_play" data-play="play">
+                <img src="/images/vid-play.png" alt="img-mu-item" title="img-mu-item">
+            </div>
+        </div>        
+    </article>
+</body>
+
+</html>
