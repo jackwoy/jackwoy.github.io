@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html style="padding:0; margin:0; width:100%; height:100%; overflow:hidden">
+
+
+<head>
+	<script src="//player.ooyala.com/static/v4/production/latest/core.min.js"></script>
+    <script src="//player.ooyala.com/static/v4/production/latest/video-plugin/bit_wrapper.min.js"></script>
+    <script src="//player.ooyala.com/static/v4/production/latest/video-plugin/main_html5.min.js"></script>   
+  
+    <script src="//player.ooyala.com/static/v4/production/latest/ad-plugin/google_ima.min.js"></script>   
+    <script src="//player.ooyala.com/static/v4/production/latest/other-plugin/discovery_api.min.js"></script> 
+    
+    <script src="//player.ooyala.com/static/v4/production/latest/skin-plugin/html5-skin.min.js"></script>  
+      <link rel="stylesheet" href="//player.ooyala.com/static/v4/production/latest/skin-plugin/html5-skin.min.css"/>
+    <link rel="stylesheet" href="//ooyalasnippetconverter.persgroep.be/scripts/custom_overrides.css"/>  
+</head>
+
+
+<body style="padding:0; margin:0; width:100%; height:100%; overflow:hidden">
+  <div id='container' style='width:100%; height:100%;'></div>
+  <script>
+    firstPlay = true; // commnet this out to turn off fixed
+    autoABR = true;
+    autoABRDelay = 15;
+    var queryParams = window.location.href;
+	// read player ID from parameters
+	var playerid =  queryParams.match(/pbid=([^&]*)/)[1];
+	
+	var skin;
+	
+	// replace ad with options[adsetcode] - readibility Iframe parameters	
+	queryParams = queryParams.replace("ad=", "options[adSetCode]=");
+	
+		
+	// setting skin based on player ID
+	
+	skin = "/skin.json"
+	
+		
+	
+    var playerParam = {
+      "pcode": 'p4dmQyOsCE4guGeAXQ6wbJ0tbWH9',
+      "playerBrandingId": playerid,
+	  "encodingPriority": ["hls", "hds", "mp4", "dash", "webm"],
+	  "level": "1",
+	  "platform": "html5",
+      "skin": {
+        "config": skin,
+        "inline":{"discoveryScreen":{"showCountDownTimerOnEndScreen":false},"upNext":{"showUpNext":false},"shareScreen": {"embed": {"source": "<iframe width='640' height='480' frameborder='0' allowfullscreen src='https://video.hln.be/TEST/iframe.html?ec=<ASSET_ID>&pbid=<PLAYER_ID>&pcode=<PUBLISHER_ID>'></iframe>"}}  
+      }},
+	"initialBitrate" : {"level": 1},
+	   onCreate: function(player) {
+        player.mb.subscribe('*', 'test', function(event) {
+
+          //set starting bitrate
+          if (event == OO.EVENTS.VC_WILL_PLAY && firstPlay == true) {
+            var startingBitrate = pp.getBitratesAvailable();
+           pp.setTargetBitrate(startingBitrate[(startingBitrate.length-1)].id);
+            firstPlay = false;
+            autoABR = false;
+          }
+
+          // set auto bitrate
+          if (event == OO.EVENTS.PLAYHEAD_TIME_CHANGED && autoABR == false) {
+            var khPHT = pp.getPlayheadTime();
+            if (khPHT > autoABRDelay) {
+              pp.setTargetBitrate("auto");
+              autoABR = true;
+            }
+          }
+
+        });
+      },
+	  "autoplay": false,	 
+	  "adLoadTimeout":3,
+	  "google-ima-ads-manager": {
+	  "useGoogleAdUI":true,
+	  "showAdControls":false,
+	  "vpaidMode": "enabled"
+		}
+    };
+
+    // Parse docUrl
+    var docUrl = undefined;
+    if (!!queryParams.match(/docUrl=([^&]*)/)) {
+      playerParam["docUrl"] = decodeURIComponent(queryParams.match(/docUrl=([^&]*)/)[1]);
+    }
+	      
+		
+
+  // Parse standard Ooyala player runtime options
+    var queryTokens = queryParams.split(/[\?\&]/);
+    for (var i=0; i<queryTokens.length; i++) {
+      try {
+        var match = queryTokens[i].match(/^options\[([^\]]+)\]=(.+)/);
+        if (match) {
+          var currentLevel = playerParam;
+          var keySplits = match[1].split(".");
+          while (keySplits.length > 1) {
+            var key = keySplits.shift();
+            if (currentLevel[key] === undefined)
+              currentLevel[key] = {};
+            currentLevel = currentLevel[key];
+          }
+          if (typeof currentLevel !== 'object')
+            throw("Exception: Invalid query parameter");
+
+          var paramValue = decodeURIComponent(match[2]);
+          if (paramValue.toLowerCase() === "true")
+            currentLevel[keySplits[0]] = true;
+          else if (paramValue.toLowerCase() === "false")
+            currentLevel[keySplits[0]] = false;
+          else if (paramValue[0] === "[" &&
+            paramValue[paramValue.length -1] === "]")
+            currentLevel[keySplits[0]] = JSON.parse(decodeURIComponent(match[2]));
+          else
+            currentLevel[keySplits[0]] = decodeURIComponent(match[2]);
+        }
+      }
+      catch (e) {
+        throw("Exception: Invalid query parameter");
+      }
+    }
+
+    OO.ready(function() {
+      window.pp = OO.Player.create('container', queryParams.match(/ec=([^&]*)/)[1], playerParam);
+    });
+  </script>
+</body>
+</html>
